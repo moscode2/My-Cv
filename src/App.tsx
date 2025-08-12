@@ -212,6 +212,11 @@ function App() {
               </ul>
             </section>
           </div>
+        </header>
+
+        {/* Main Content */}
+        <div className="px-8 py-6">
+          {/* Technical Skills */}
         </div>
       </div>
     </div>
@@ -219,6 +224,3 @@ function App() {
 }
 
 export default App;
-
-  )
-}

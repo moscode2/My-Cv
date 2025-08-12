@@ -202,7 +202,7 @@ function App() {
                   <br />
                   <span className="text-sm text-gray-600">Codsoft Limited - 2024</span>
                 </li>
-                
+                <li>
                   <strong>Hackathon Winner - Best Full Stack App</strong>
                   <br />
                   <span className="text-sm text-gray-600">SF TechWeek - 2022</span>

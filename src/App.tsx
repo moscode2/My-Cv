@@ -54,6 +54,11 @@ function App() {
               <Globe className="w-5 h-5" />
             </a>
           </div>
+        </header>
+
+        {/* Main Content */}
+        <div className="px-8 py-6">
+          {/* Technical Skills */}
           <section className="mb-6">
             <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
               Technical Skills
@@ -213,11 +218,6 @@ function App() {
               </ul>
             </section>
           </div>
-        </header>
-
-        {/* Main Content */}
-        <div className="px-8 py-6">
-          {/* Technical Skills */}
         </div>
       </div>
     </div>
@@ -225,5 +225,3 @@ function App() {
 }
 
 export default App;
-  )
-}

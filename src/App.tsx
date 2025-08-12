@@ -7,7 +7,7 @@ function App() {
       <div className="max-w-4xl mx-auto bg-white shadow-lg">
         {/* Header */}
         <header className="bg-blue-700 text-white px-8 py-6">
-          <h1 className="text-3xl font-bold mb-2">John Smith</h1>
+          <h1 className="text-3xl font-bold mb-2">Moses Onyango</h1>
           <p className="text-xl text-blue-100 mb-4">Full Stack Developer</p>
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-1">
@@ -16,23 +16,23 @@ function App() {
             </div>
             <div className="flex items-center gap-1">
               <Mail className="w-4 h-4" />
-              <span>john.smith@email.com</span>
+              <span>moisesmoses002@gmail.com</span>
             </div>
             <div className="flex items-center gap-1">
               <Linkedin className="w-4 h-4" />
-              <span>linkedin.com/in/johnsmith</span>
+              <span>linkedin.com/in/moses-onyango-007459298/</span>
             </div>
             <div className="flex items-center gap-1">
               <Github className="w-4 h-4" />
-              <span>github.com/johnsmith</span>
+              <span>github.com/moscode2</span>
             </div>
             <div className="flex items-center gap-1">
               <Globe className="w-4 h-4" />
-              <span>johnsmith.dev</span>
+              <span>https://my-portfolio-amber-three-37.vercel.app/</span>
             </div>
             <div className="flex items-center gap-1">
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA</span>
+              <span>Nairobi, Kenya</span>
             </div>
           </div>
         </header>
@@ -44,10 +44,9 @@ function App() {
               Professional Summary
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Experienced Full Stack Developer with 5+ years developing scalable web applications using modern technologies. 
-              Proven track record of delivering high-quality solutions that increased user engagement by 40% and reduced load times by 60%. 
-              Strong problem-solving abilities with expertise in both front-end user experience and back-end architecture. 
-              Passionate about clean code, performance optimization, and collaborative development practices.
+              Motivated and detail-oriented Junior Full Stack Developer with a strong foundation in both frontend and backend technologies, including React.js, Node.js, TypeScript, and Tailwind CSS. 
+              Passionate about creating responsive, user-friendly applications and delivering clean, efficient code. Skilled in collaborating with teams, integrating APIs, and applying modern UI/UX principles to enhance user experience.
+               Eager to contribute to innovative projects while continuously improving technical expertise.
             </p>
           </section>
 
@@ -59,19 +58,19 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <h3 className="font-semibold text-gray-800 mb-2">Frontend Technologies</h3>
-                <p className="text-gray-700">HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, Vue.js, Tailwind CSS, Bootstrap, Sass</p>
+                <p className="text-gray-700">HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, Vue.js, Tailwind CSS</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-2">Backend Technologies</h3>
-                <p className="text-gray-700">Node.js, Express.js, Python, Django, REST APIs, GraphQL, Microservices Architecture</p>
+                <p className="text-gray-700">Node.js, Express.js, Python, Django, REST APIs</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-2">Databases & Cloud</h3>
-                <p className="text-gray-700">MongoDB, PostgreSQL, MySQL, Redis, AWS, Docker, Kubernetes, Firebase, Supabase</p>
+                <p className="text-gray-700"> PostgreSQL, MySQL, AWS, Docker,  Firebase, Supabase</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-2">Development Tools</h3>
-                <p className="text-gray-700">Git, GitHub, VS Code, Webpack, Vite, Jest, Cypress, Agile/Scrum, CI/CD Pipelines</p>
+                <p className="text-gray-700">Git, GitHub, VS Code, Webpack, Vite, Jest</p>
               </div>
             </div>
           </section>
@@ -85,48 +84,47 @@ function App() {
             <div className="mb-5">
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-bold text-gray-800">Senior Full Stack Developer</h3>
-                  <p className="text-blue-700 font-medium">TechCorp Solutions</p>
+                  <h3 className="font-bold text-gray-800">Junior Full Stack Developer</h3>
+                  <p className="text-blue-700 font-medium">CodSoft Limited</p>
                 </div>
-                <span className="text-gray-600 text-sm">March 2022 - Present</span>
+                <span className="text-gray-600 text-sm">January 2025 - July 2025</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
-                <li>Led development of customer portal serving 10,000+ users, improving user satisfaction by 35%</li>
-                <li>Architected and implemented microservices infrastructure reducing deployment time by 50%</li>
-                <li>Mentored 3 junior developers and established code review processes improving code quality metrics by 40%</li>
-                <li>Optimized database queries and caching strategies, reducing API response times by 60%</li>
+                <li>Assisted in developing and maintaining web applications using React.js and Node.js.</li>
+                <li>Built responsive user interfaces with HTML, CSS, Tailwind CSS, and JavaScript/TypeScript.</li>
+                <li>Collaborated with senior developers in code reviews, debugging, and feature deployment.</li>
+                <li>Gained experience in Git/GitHub version control and Agile project management tools.</li>
               </ul>
             </div>
 
             <div className="mb-5">
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-bold text-gray-800">Full Stack Developer</h3>
-                  <p className="text-blue-700 font-medium">StartupXYZ</p>
+                  <h3 className="font-bold text-gray-800">FrontEnd Developer</h3>
+                  <p className="text-blue-700 font-medium">Safety Plus Consulting Limited-Rongai</p>
                 </div>
-                <span className="text-gray-600 text-sm">June 2020 - February 2022</span>
+                <span className="text-gray-600 text-sm">May 2024 - August 2024</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
-                <li>Built responsive e-commerce platform from scratch, generating $2M+ in annual revenue</li>
-                <li>Implemented real-time chat system using WebSocket technology, increasing user engagement by 45%</li>
-                <li>Developed automated testing suite achieving 90% code coverage and reducing bugs by 65%</li>
-                <li>Collaborated with design team to implement pixel-perfect UI components using React and Tailwind CSS</li>
+                <li>Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.</li>
+                <li>Optimized website performance and ensured cross-browser compatibility.</li>
+                <li>Worked closely with designers to translate wireframes into functional web pages.</li>
+                <li>Used Git/GitHub for version control and participated in Agile development sprints.</li>
               </ul>
             </div>
 
             <div className="mb-5">
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-bold text-gray-800">Junior Web Developer</h3>
+                  <h3 className="font-bold text-gray-800">Graphics Designer</h3>
                   <p className="text-blue-700 font-medium">Digital Agency Pro</p>
                 </div>
                 <span className="text-gray-600 text-sm">January 2019 - May 2020</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
-                <li>Developed 15+ client websites using WordPress, HTML/CSS, and JavaScript</li>
-                <li>Implemented SEO best practices resulting in 25% average increase in organic traffic</li>
-                <li>Created custom WordPress plugins and themes, reducing development time by 30%</li>
-                <li>Maintained and updated existing client websites ensuring 99.9% uptime</li>
+                <li>Created visually appealing designs for logos, social media posts, and marketing materials using Adobe Photoshop, Illustrator, and Canva</li>
+                <li>Collaborated with clients to understand brand identity and translate ideas into engaging visuals.</li>
+                <li>Delivered projects on time while maintaining high quality and creativity.</li>
               </ul>
             </div>
           </section>
@@ -139,40 +137,40 @@ function App() {
             
             <div className="mb-4">
               <div className="flex justify-between items-start mb-2">
-                <h3 className="font-bold text-gray-800">TaskFlow - Project Management Tool</h3>
-                <a href="https://taskflow-demo.com" className="text-blue-700 text-sm hover:underline">Live Demo</a>
+                <h3 className="font-bold text-gray-800">Budget Buddy-Financial Guidance</h3>
+                <a href="https://budgetbuddy-mu.vercel.app/" className="text-blue-700 text-sm hover:underline">Live Demo</a>
               </div>
               <p className="text-gray-700 mb-2">
-                Full-featured project management application with real-time collaboration, file sharing, and team analytics dashboard.
+                Budget Buddy – A personal finance tracking web app that helps users monitor expenses, set savings goals, and visualize spending patterns through interactive charts and real-time updates.
               </p>
               <p className="text-sm text-gray-600">
-                <strong>Tech Stack:</strong> React.js, Node.js, Socket.io, MongoDB, AWS S3, JWT Authentication
+                <strong>Tech Stack:</strong> React.js, Node.js, Socket.io, MongoDB, Typscript.
               </p>
             </div>
 
             <div className="mb-4">
               <div className="flex justify-between items-start mb-2">
-                <h3 className="font-bold text-gray-800">CryptoTracker - Cryptocurrency Dashboard</h3>
-                <a href="https://github.com/johnsmith/cryptotracker" className="text-blue-700 text-sm hover:underline">GitHub</a>
+                <h3 className="font-bold text-gray-800">Task Management Web App</h3>
+                <a href="https://github.com/mosocode2/Task Managemet App" className="text-blue-700 text-sm hover:underline">GitHub</a>
               </div>
               <p className="text-gray-700 mb-2">
-                Real-time cryptocurrency tracking platform with portfolio management, price alerts, and advanced charting features.
+                Real-time web app that helps in managing schedule of the task you want to perfom.
               </p>
               <p className="text-sm text-gray-600">
-                <strong>Tech Stack:</strong> Next.js, TypeScript, Chart.js, Redis, PostgreSQL, Coinbase API
+                <strong>Tech Stack:</strong> Next.js, TypeScript, Chart.js, PostgreSQL, Coinbase API
               </p>
             </div>
 
             <div className="mb-4">
               <div className="flex justify-between items-start mb-2">
-                <h3 className="font-bold text-gray-800">EcoShop - Sustainable E-commerce Platform</h3>
-                <a href="https://ecoshop-demo.netlify.app" className="text-blue-700 text-sm hover:underline">Live Demo</a>
+                <h3 className="font-bold text-gray-800">Family Website</h3>
+                <a href="https://rajore-family.vercel.app" className="text-blue-700 text-sm hover:underline">Live Demo</a>
               </div>
               <p className="text-gray-700 mb-2">
-                E-commerce platform focusing on sustainable products with carbon footprint calculator and eco-friendly shipping options.
+                This is a family website,online family
               </p>
               <p className="text-sm text-gray-600">
-                <strong>Tech Stack:</strong> Vue.js, Express.js, Stripe API, Docker, GraphQL, Supabase
+                <strong>Tech Stack:</strong> HTML,CSS and Javascript
               </p>
             </div>
           </section>
@@ -184,9 +182,9 @@ function App() {
                 Education
               </h2>
               <div className="mb-3">
-                <h3 className="font-bold text-gray-800">Bachelor of Science in Computer Science</h3>
-                <p className="text-blue-700 font-medium">University of California, Berkeley</p>
-                <p className="text-gray-600 text-sm">Graduated: May 2018</p>
+                <h3 className="font-bold text-gray-800">Diploma In Science in Computer Science</h3>
+                <p className="text-blue-700 font-medium">The Cooperative University of Kenya,Kenya</p>
+                <p className="text-gray-600 text-sm">Graduated: December 2025</p>
                 <p className="text-gray-700 text-sm mt-1">
                   Relevant Coursework: Data Structures, Algorithms, Web Development, Database Systems, Software Engineering
                 </p>
@@ -200,21 +198,11 @@ function App() {
               </h2>
               <ul className="space-y-2 text-gray-700">
                 <li>
-                  <strong>AWS Certified Solutions Architect</strong>
+                  <strong>Web Development</strong>
                   <br />
-                  <span className="text-sm text-gray-600">Amazon Web Services - 2023</span>
+                  <span className="text-sm text-gray-600">Codsoft Limited - 2024</span>
                 </li>
-                <li>
-                  <strong>Google Cloud Professional Developer</strong>
-                  <br />
-                  <span className="text-sm text-gray-600">Google Cloud - 2022</span>
-                </li>
-                <li>
-                  <strong>Employee of the Year</strong>
-                  <br />
-                  <span className="text-sm text-gray-600">TechCorp Solutions - 2023</span>
-                </li>
-                <li>
+                
                   <strong>Hackathon Winner - Best Full Stack App</strong>
                   <br />
                   <span className="text-sm text-gray-600">SF TechWeek - 2022</span>

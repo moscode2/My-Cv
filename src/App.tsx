@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Globe, Github, Linkedin, MapPin } from 'lucide-react';
+import { Mail, Globe, Github, Linkedin, MapPin, MessageCircle } from 'lucide-react';
 
 function App() {
   return (
@@ -10,47 +10,49 @@ function App() {
           <h1 className="text-3xl font-bold mb-2">Moses Onyango</h1>
           <p className="text-xl text-blue-100 mb-4">Full Stack Developer</p>
           <div className="flex flex-wrap gap-4 text-sm">
-            <div className="flex items-center gap-1">
-              <Phone className="w-4 h-4" />
-              <span>(555) 123-4567</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Mail className="w-4 h-4" />
-              <span>moisesmoses002@gmail.com</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Linkedin className="w-4 h-4" />
-              <span>linkedin.com/in/moses-onyango-007459298/</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Github className="w-4 h-4" />
-              <span>github.com/moscode2</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Globe className="w-4 h-4" />
-              <span>https://my-portfolio-amber-three-37.vercel.app/</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <MapPin className="w-4 h-4" />
-              <span>Nairobi, Kenya</span>
-            </div>
-          </div>
-        </header>
-
-        <div className="px-8 py-6">
-          {/* Professional Summary */}
-          <section className="mb-6">
-            <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
-              Professional Summary
-            </h2>
-            <p className="text-gray-700 leading-relaxed">
-              Motivated and detail-oriented Junior Full Stack Developer with a strong foundation in both frontend and backend technologies, including React.js, Node.js, TypeScript, and Tailwind CSS. 
-              Passionate about creating responsive, user-friendly applications and delivering clean, efficient code. Skilled in collaborating with teams, integrating APIs, and applying modern UI/UX principles to enhance user experience.
-               Eager to contribute to innovative projects while continuously improving technical expertise.
-            </p>
-          </section>
-
-          {/* Technical Skills */}
+            <a 
+              href="https://wa.me/255123456789" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-100 hover:text-white transition-colors"
+              title="WhatsApp: (555) 123-4567"
+            >
+              <MessageCircle className="w-5 h-5" />
+            </a>
+            <a 
+              href="mailto:moisesmoses002@gmail.com" 
+              className="text-blue-100 hover:text-white transition-colors"
+              title="Email: moisesmoses002@gmail.com"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
+            <a 
+              href="https://linkedin.com/in/moses-onyango-007459298/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-100 hover:text-white transition-colors"
+              title="LinkedIn Profile"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <a 
+              href="https://github.com/moscode2" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-100 hover:text-white transition-colors"
+              title="GitHub Profile"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a 
+              href="https://my-portfolio-amber-three-37.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-100 hover:text-white transition-colors"
+              title="Portfolio Website"
+            >
+              <Globe className="w-5 h-5" />
+            </a>
           <section className="mb-6">
             <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
               Technical Skills

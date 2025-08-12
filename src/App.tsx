@@ -53,6 +53,7 @@ function App() {
             >
               <Globe className="w-5 h-5" />
             </a>
+          </div>
           <section className="mb-6">
             <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
               Technical Skills

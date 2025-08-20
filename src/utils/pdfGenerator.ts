@@ -54,6 +54,45 @@ export const generatePDF = async () => {
       heightLeft -= pageHeight;
     }
 
+    // Add clickable links to the PDF
+    // Get all links from the header section
+    const headerLinks = element.querySelectorAll('header a');
+    const scale = imgWidth / element.scrollWidth;
+    
+    headerLinks.forEach((link) => {
+      const rect = link.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+      
+      // Calculate relative position within the CV element
+      const x = (rect.left - elementRect.left) * scale;
+      const y = (rect.top - elementRect.top) * scale;
+      const width = rect.width * scale;
+      const height = rect.height * scale;
+      
+      const href = link.getAttribute('href');
+      if (href) {
+        // Add clickable link area to PDF
+        pdf.link(x, y, width, height, { url: href });
+      }
+    });
+
+    // Add links for project URLs
+    const projectLinks = element.querySelectorAll('section a[href]');
+    projectLinks.forEach((link) => {
+      const rect = link.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+      
+      const x = (rect.left - elementRect.left) * scale;
+      const y = (rect.top - elementRect.top) * scale;
+      const width = rect.width * scale;
+      const height = rect.height * scale;
+      
+      const href = link.getAttribute('href');
+      if (href && href.startsWith('http')) {
+        pdf.link(x, y, width, height, { url: href });
+      }
+    });
+
     // Download the PDF
     pdf.save('Moses_Onyango_CV.pdf');
   } catch (error) {

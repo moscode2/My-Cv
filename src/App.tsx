@@ -29,44 +29,49 @@ function App() {
               href="https://wa.me/254110626022" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-100 hover:text-white transition-colors"
+              className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"
               title="WhatsApp: (555) 123-4567"
             >
               <MessageCircle className="w-5 h-5" />
+              <span className="hidden sm:inline">WhatsApp</span>
             </a>
             <a 
               href="mailto:moisesmoses002@gmail.com" 
-              className="text-blue-100 hover:text-white transition-colors"
+              className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"
               title="Email: moisesmoses002@gmail.com"
             >
               <Mail className="w-5 h-5" />
+              <span className="hidden sm:inline">Email</span>
             </a>
             <a 
               href="https://linkedin.com/in/moses-onyango-007459298/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-100 hover:text-white transition-colors"
+              className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"
               title="LinkedIn Profile"
             >
               <Linkedin className="w-5 h-5" />
+              <span className="hidden sm:inline">LinkedIn</span>
             </a>
             <a 
               href="https://github.com/moscode2" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-100 hover:text-white transition-colors"
+              className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"
               title="GitHub Profile"
             >
               <Github className="w-5 h-5" />
+              <span className="hidden sm:inline">GitHub</span>
             </a>
             <a 
               href="https://my-portfolio-amber-three-37.vercel.app/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-100 hover:text-white transition-colors"
+              className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"
               title="Portfolio Website"
             >
               <Globe className="w-5 h-5" />
+              <span className="hidden sm:inline">Portfolio</span>
             </a>
           </div>
         </header>

@@ -1,12 +1,27 @@
 import React from 'react';
-import { Mail, Globe, Github, Linkedin, MapPin, MessageCircle } from 'lucide-react';
+import { Mail, Globe, Github, Linkedin, MapPin, MessageCircle, Download } from 'lucide-react';
+import { generatePDF } from './utils/pdfGenerator';
 
 function App() {
+  const handleDownloadPDF = () => {
+    generatePDF();
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg">
         {/* Header */}
-        <header className="bg-blue-700 text-white px-8 py-6">
+        <header className="bg-blue-700 text-white px-8 py-6 relative">
+          {/* Download Button */}
+          <button
+            onClick={handleDownloadPDF}
+            className="absolute top-4 right-4 bg-blue-600 hover:bg-blue-800 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors print:hidden"
+            title="Download as PDF"
+          >
+            <Download className="w-4 h-4" />
+            Download PDF
+          </button>
+          
           <h1 className="text-3xl font-bold mb-2">Moses Onyango</h1>
           <p className="text-xl text-blue-100 mb-4">Full Stack Developer</p>
           <div className="flex flex-wrap gap-4 text-sm">

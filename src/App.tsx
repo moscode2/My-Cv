@@ -195,7 +195,7 @@ function App() {
                 <a href="https://rajore-family.vercel.app" className="text-blue-700 text-sm hover:underline">Live Demo</a>
               </div>
               <p className="text-gray-700 mb-2">
-                This is a family website,online family
+                Transformed code into connection by building a space where family roots grow deeper in digital soil.
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Tech Stack:</strong> HTML,CSS and Javascript

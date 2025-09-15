@@ -190,17 +190,27 @@ function App() {
             </div>
 
             <div className="mb-4">
-              <div className="flex justify-between items-start mb-2">
-                <h3 className="font-bold text-gray-800">Family Website</h3>
-                <a href="https://rajore-family.vercel.app" className="text-blue-700 text-sm hover:underline">Live Demo</a>
-              </div>
-              <p className="text-gray-700 mb-2">
-                Transformed code into connection by building a space where family roots grow deeper in digital soil.
-              </p>
-              <p className="text-sm text-gray-600">
-                <strong>Tech Stack:</strong> HTML,CSS and Javascript
-              </p>
-            </div>
+  <div className="flex justify-between items-start mb-2">
+    <h3 className="font-bold text-gray-800">AfriEuropa News</h3>
+    <a 
+      href="https://afri-diaspora-webpage.vercel.app/" 
+      className="text-blue-700 text-sm hover:underline" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Live Demo
+    </a>
+  </div>
+  <p className="text-gray-700 mb-2">
+    Developed and deployed a full-stack diaspora news platform connecting 
+    Africa and Europe, featuring curated articles, category-based filtering, 
+    and secure authentication. Focused on delivering fast performance, 
+    mobile-first design, and a clean, modern UI for a global audience.
+  </p>
+  <p className="text-sm text-gray-600">
+    <strong>Tech Stack:</strong> React, TypeScript, Firebase, Tailwind CSS, Vite
+  </p>
+</div>
           </section>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -193,7 +193,7 @@ function App() {
   <div className="flex justify-between items-start mb-2">
     <h3 className="font-bold text-gray-800">AfriEuropa News</h3>
     <a 
-      href="https://afri-diaspora-webpage.vercel.app/" 
+      href="https://www.afrieuropanews.com/" 
       className="text-blue-700 text-sm hover:underline" 
       target="_blank" 
       rel="noopener noreferrer"

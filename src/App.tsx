@@ -64,7 +64,7 @@ function App() {
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a 
-              href="https://my-portfolio-amber-three-37.vercel.app/" 
+              href="https://justmee.netlify.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"

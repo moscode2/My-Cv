@@ -26,7 +26,7 @@ function App() {
           <p className="text-xl text-blue-100 mb-4">Full Stack Developer</p>
           <div className="flex flex-wrap gap-4 text-sm">
             <a 
-              href="https://wa.me/254110626022" 
+              href="https://wa.me/254791936043" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-100 hover:text-white transition-colors flex items-center gap-1"

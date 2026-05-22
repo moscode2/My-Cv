@@ -243,7 +243,7 @@ function App() {
                 <li>
                   <strong>SoftGrow Tech - Web Development and Software Enginneer</strong>
                   <br />
-                  <span className="text-sm text-gray-600">SF TechWeek - 2022</span>
+                  <span className="text-sm text-gray-600">SF TechWeek - 2026</span>
                 </li>
               </ul>
             </section>

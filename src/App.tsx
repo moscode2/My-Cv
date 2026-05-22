@@ -147,7 +147,7 @@ function App() {
                   <h3 className="font-bold text-gray-800">Graphics Designer</h3>
                   <p className="text-blue-700 font-medium">Digital Agency Pro</p>
                 </div>
-                <span className="text-gray-600 text-sm">January 2019 - May 2020</span>
+                <span className="text-gray-600 text-sm">January 2023 - May 2023</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
                 <li>Created visually appealing designs for logos, social media posts, and marketing materials using Adobe Photoshop, Illustrator, and Canva</li>

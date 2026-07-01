@@ -122,6 +122,11 @@ function App() {
                 <li>Built responsive user interfaces with HTML, CSS, Tailwind CSS, and JavaScript/TypeScript.</li>
                 <li>Collaborated with senior developers in code reviews, debugging, and feature deployment.</li>
                 <li>Gained experience in Git/GitHub version control and Agile project management tools.</li>
+                <li>Provided first-line technical support for hardware and software issues.</li>
+                <li>Installed and configured Windows operating systems and office applications.</li>
+                <li>Diagnosed and resolved printer and network connectivity issues.</li>
+                <li>Assisted users with password resets and application support.</li>
+                <li>Maintained ICT equipment inventory and documentation.</li>
               </ul>
             </div>
 
@@ -134,10 +139,10 @@ function App() {
                 <span className="text-gray-600 text-sm">May 2024 - August 2024</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
-                <li>Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.</li>
+                sed Git/GitHub for version control and par<li>Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.</li>
                 <li>Optimized website performance and ensured cross-browser compatibility.</li>
                 <li>Worked closely with designers to translate wireframes into functional web pages.</li>
-                <li>Used Git/GitHub for version control and participated in Agile development sprints.</li>
+                <li>Uticipated in Agile development sprints.</li>
               </ul>
             </div>
 

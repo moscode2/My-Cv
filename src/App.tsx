@@ -23,7 +23,7 @@ function App() {
           </button>
           
           <h1 className="text-3xl font-bold mb-2">Moses Onyango</h1>
-          <p className="text-xl text-blue-100 mb-4">Full Stack Developer</p>
+          <p className="text-xl text-blue-100 mb-4">Full Stack Developer||Software Developer||ICT Support</p>
           <div className="flex flex-wrap gap-4 text-sm">
             <a 
               href="https://wa.me/254791936043" 

@@ -239,7 +239,7 @@ function App() {
     Expected Salary
   </h2>
   <p className="text-gray-700">
-    Negotiable, in line with the organization's Graduate Trainee remuneration structure.
+    Negotiable, in line with the organization's compensation structure and industry standards.
   </p>
 </section>
 

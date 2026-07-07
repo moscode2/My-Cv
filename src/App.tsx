@@ -23,7 +23,7 @@ function App() {
           </button>
           
           <h1 className="text-3xl font-bold mb-2">Moses Onyango</h1>
-          <p className="text-xl text-blue-100 mb-4">Web Developer||Software Developer||ICT Support</p>
+          <p className="text-xl text-blue-100 mb-4">Computer Science Graduate | Software Developer | ICT Support</p>
           <div className="flex flex-wrap gap-4 text-sm">
             <a 
               href="https://wa.me/254791936043" 
@@ -133,7 +133,7 @@ function App() {
             <div className="mb-5">
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h3 className="font-bold text-gray-800">FrontEnd Developer</h3>
+                  <h3 className="font-bold text-gray-800">FrontEnd Developer & FrontEnd Developer</h3>
                   <p className="text-blue-700 font-medium">Safety Plus Consulting Limited-Rongai</p>
                 </div>
                 <span className="text-gray-600 text-sm">May 2024 - August 2024</span>
@@ -142,7 +142,7 @@ function App() {
                 <li>Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.</li>
                 <li>Optimized website performance and ensured cross-browser compatibility.</li>
                 <li>Worked closely with designers to translate wireframes into functional web pages.</li>
-                <li>Uticipated in Agile development sprints.</li>
+                <li>Participated in Agile development sprints.</li>
               </ul>
             </div>
 
@@ -225,7 +225,7 @@ function App() {
                 Education
               </h2>
               <div className="mb-3">
-                <h3 className="font-bold text-gray-800">Diploma In Science in Computer Science</h3>
+                <h3 className="font-bold text-gray-800">Diploma In Computer Science</h3>
                 <p className="text-blue-700 font-medium">The Cooperative University of Kenya,Kenya</p>
                 <p className="text-gray-600 text-sm">Graduated: December 2025</p>
                 <p className="text-gray-700 text-sm mt-1">
@@ -233,7 +233,83 @@ function App() {
                 </p>
               </div>
             </section>
+              {/* Expected Salary */}
+<section className="mt-6">
+  <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
+    Expected Salary
+  </h2>
+  <p className="text-gray-700">
+    Negotiable, in line with the organization's Graduate Trainee remuneration structure.
+  </p>
+</section>
 
+{/* Testimonials */}
+<section className="mt-6">
+  <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
+    Testimonials
+  </h2>
+  <ul className="list-disc list-inside text-gray-700 space-y-1">
+    <li>Academic Certificates and Transcripts (Attached).</li>
+    <li>Industrial Attachment Recommendation Letter - Safety Plus Consulting Limited.</li>
+    <li>Professional Certificates available upon request.</li>
+  </ul>
+</section>
+
+{/* Referees */}
+<section className="mt-6 mb-6">
+  <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">
+    Referees
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <div>
+      <h3 className="font-semibold text-gray-800">Academic Referee</h3>
+      <p className="text-gray-700 text-sm">
+        Jared Muturi
+        <br />
+        Lecturer, Computer Science
+        <br />
+        The Co-operative University of Kenya
+        <br />
+        Tel: +254 791308388
+        <br />
+        Email: mjared@gmail.com
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-gray-800">Professional Referee</h3>
+      <p className="text-gray-700 text-sm">
+        Dr.Alfayo Otuke
+        <br />
+        ICT Supervisor
+        <br />
+        Safety Plus Consulting Ltd.
+        <br />
+        Tel: +254 777500501
+        <br />
+        Email: info@safetyplus.co.ke
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-gray-800">Professional Referee</h3>
+      <p className="text-gray-700 text-sm">
+        Peter Ochieng
+        <br />
+        Systems Administrator
+        <br />
+        Safety Plus Consulting Ltd.
+        <br />
+        Tel: +254 771 234567
+        <br />
+        Email: peter234@gmail.com
+      </p>
+    </div>
+
+  </div>
+</section>
             {/* Certifications & Awards */}
             <section>
               <h2 className="text-xl font-bold text-gray-800 mb-3 border-b-2 border-blue-700 pb-1">

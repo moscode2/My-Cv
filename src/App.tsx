@@ -139,7 +139,7 @@ function App() {
                 <span className="text-gray-600 text-sm">May 2024 - August 2024</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
-                sed Git/GitHub for version control and par<li>Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.</li>
+                <li>Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.</li>
                 <li>Optimized website performance and ensured cross-browser compatibility.</li>
                 <li>Worked closely with designers to translate wireframes into functional web pages.</li>
                 <li>Uticipated in Agile development sprints.</li>
